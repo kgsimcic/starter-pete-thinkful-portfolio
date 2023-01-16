@@ -19,6 +19,13 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  margin: 30px;
 }
 
 /* Containers */
@@ -26,6 +33,20 @@ div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
+}
+
+.horiz {
+  display: flex;
+}
+
+.horiz section {
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+
+.horiz div {
+  text-align: left;
 }
 
 article {
@@ -53,6 +74,7 @@ a:hover {
 
 nav a {
   padding-left: 20px;
+
 }
 
 /* Images */
